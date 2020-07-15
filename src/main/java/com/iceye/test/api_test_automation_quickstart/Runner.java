@@ -11,7 +11,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 glue= {"com.iceye.test.api.acceptance.test.stepdefinitions"},
-features= {"src/test/resources"},
+features= {"src/test/resources/Features/SBDBCloseApproachDataAPI.feature"},
+monochrome=true,
 dryRun = false,
 plugin= {"pretty","html:target/site/cucumber-pretty", "json:target/cucumber.json"})
 public class Runner {

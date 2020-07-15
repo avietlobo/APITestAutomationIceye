@@ -13,7 +13,7 @@ public class App
 	            "--glue", "com.iceye.test.api.acceptance.test.stepdefinitions",
 	            "--plugin", "pretty",
 	            "--plugin", "html:target/cucumber.html",
-	            "--features", "src/test/resources/Features"
+	            "--features", "/src/test/resources/Features/SBDBCloseApproachDataAPI.feature"
 	    };
 	 
 	    public static void main(String[] args) {
