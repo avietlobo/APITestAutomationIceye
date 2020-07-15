@@ -18,7 +18,7 @@ public class App2
 	 
 	    public static void main(String[] args) throws Throwable {
 	    	
-            Main.main(new String[]{"-g", "com/iceye/test/api/acceptance/test/stepdefinitions/stepDefination", "src/test/resources/Features/SBDBCloseApproachDataAPI.feature"});
+            Main.main(new String[]{"-g", "com/iceye/test/api/acceptance/test/stepdefinitions/stepDefination", "src/resources/Features/SBDBCloseApproachDataAPI.feature"});
 
 	    	
 	       	    }
