@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Features/SBDBCloseApproachDataAPI.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Features/SBDBCloseApproachDataAPI.feature");
 formatter.feature({
   "line": 1,
   "name": "SBDB Close-Approach Data API Module",
@@ -126,7 +126,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 2243194100,
+  "duration": 1440079400,
   "status": "passed"
 });
 formatter.match({
@@ -151,7 +151,7 @@ formatter.match({
   "location": "stepDefination.request_for_all_close_approach_data_for_Eros_within_between_and(String,String,String,String)"
 });
 formatter.result({
-  "duration": 5119146100,
+  "duration": 4226862900,
   "status": "passed"
 });
 formatter.match({
@@ -164,7 +164,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 5911400,
+  "duration": 5780000,
   "status": "passed"
 });
 formatter.match({
@@ -181,7 +181,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 131300,
+  "duration": 209300,
   "status": "passed"
 });
 formatter.match({
@@ -202,7 +202,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_get_close_approach_data_for_API_between_and(String,String,String)"
 });
 formatter.result({
-  "duration": 2095480400,
+  "duration": 1407353500,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,7 +253,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 1273700,
+  "duration": 1305300,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +278,7 @@ formatter.match({
   "location": "stepDefination.request_for_all_close_approach_data_for_Eros_within_between_and(String,String,String,String)"
 });
 formatter.result({
-  "duration": 1431726200,
+  "duration": 1453203500,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +291,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 124200,
+  "duration": 188100,
   "status": "passed"
 });
 formatter.match({
@@ -308,7 +308,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 119800,
+  "duration": 156900,
   "status": "passed"
 });
 formatter.match({
@@ -329,7 +329,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_get_close_approach_data_for_API_between_and(String,String,String)"
 });
 formatter.result({
-  "duration": 395604100,
+  "duration": 444032400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -439,7 +439,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 914800,
+  "duration": 1333000,
   "status": "passed"
 });
 formatter.match({
@@ -460,7 +460,7 @@ formatter.match({
   "location": "stepDefination.request_for_Earth_close_approach_data_for_NEOs_within_lunar_distances_on_or_after_sorted_by(String,String,String)"
 });
 formatter.result({
-  "duration": 6200268400,
+  "duration": 4206237200,
   "status": "passed"
 });
 formatter.match({
@@ -473,7 +473,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 200500,
+  "duration": 189100,
   "status": "passed"
 });
 formatter.match({
@@ -490,7 +490,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 124500,
+  "duration": 99900,
   "status": "passed"
 });
 formatter.match({
@@ -511,7 +511,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_NEOs_within_lunar_distances_on_or_after_sorted_by(String,String,String)"
 });
 formatter.result({
-  "duration": 318223100,
+  "duration": 324665900,
   "status": "passed"
 });
 });

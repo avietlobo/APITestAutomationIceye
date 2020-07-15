@@ -1,6 +1,8 @@
 com\iceye\test\api_test_automation_quickstart\App2.class
+com\iceye\test\api_test_automation_quickstart\stepDefination.class
 com\iceye\utils\JsonReader.class
 com\iceye\test\api_test_automation_quickstart\App.class
-com\iceye\test\api_test_automation_quickstart\Runner.class
 com\iceye\utils\Utils.class
+com\iceye\test\api_test_automation_quickstart\Assertions.class
+com\iceye\test\api_test_automation_quickstart\Runner.class
 com\iceye\utils\propertyFileReader.class
