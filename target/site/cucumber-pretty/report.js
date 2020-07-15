@@ -126,7 +126,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 1440079400,
+  "duration": 659982300,
   "status": "passed"
 });
 formatter.match({
@@ -151,7 +151,7 @@ formatter.match({
   "location": "stepDefination.request_for_all_close_approach_data_for_Eros_within_between_and(String,String,String,String)"
 });
 formatter.result({
-  "duration": 4226862900,
+  "duration": 2745725000,
   "status": "passed"
 });
 formatter.match({
@@ -164,7 +164,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 5780000,
+  "duration": 3456500,
   "status": "passed"
 });
 formatter.match({
@@ -181,7 +181,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 209300,
+  "duration": 82600,
   "status": "passed"
 });
 formatter.match({
@@ -202,7 +202,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_get_close_approach_data_for_API_between_and(String,String,String)"
 });
 formatter.result({
-  "duration": 1407353500,
+  "duration": 650912000,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,7 +253,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 1305300,
+  "duration": 860700,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +278,7 @@ formatter.match({
   "location": "stepDefination.request_for_all_close_approach_data_for_Eros_within_between_and(String,String,String,String)"
 });
 formatter.result({
-  "duration": 1453203500,
+  "duration": 1491662700,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +291,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 188100,
+  "duration": 179100,
   "status": "passed"
 });
 formatter.match({
@@ -308,7 +308,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 156900,
+  "duration": 64500,
   "status": "passed"
 });
 formatter.match({
@@ -329,7 +329,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_get_close_approach_data_for_API_between_and(String,String,String)"
 });
 formatter.result({
-  "duration": 444032400,
+  "duration": 162744100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -439,7 +439,7 @@ formatter.match({
   "location": "stepDefination.i_request_close_approach_data_as_an_Iceye_user()"
 });
 formatter.result({
-  "duration": 1333000,
+  "duration": 590400,
   "status": "passed"
 });
 formatter.match({
@@ -460,7 +460,7 @@ formatter.match({
   "location": "stepDefination.request_for_Earth_close_approach_data_for_NEOs_within_lunar_distances_on_or_after_sorted_by(String,String,String)"
 });
 formatter.result({
-  "duration": 4206237200,
+  "duration": 4098143500,
   "status": "passed"
 });
 formatter.match({
@@ -473,7 +473,7 @@ formatter.match({
   "location": "stepDefination.the_API_call_got_success_with_status_code(int)"
 });
 formatter.result({
-  "duration": 189100,
+  "duration": 98300,
   "status": "passed"
 });
 formatter.match({
@@ -490,7 +490,7 @@ formatter.match({
   "location": "stepDefination.in_response_body_is(String,String)"
 });
 formatter.result({
-  "duration": 99900,
+  "duration": 57000,
   "status": "passed"
 });
 formatter.match({
@@ -511,7 +511,7 @@ formatter.match({
   "location": "Assertions.the_assertion_should_work_correctly_for_NEOs_within_lunar_distances_on_or_after_sorted_by(String,String,String)"
 });
 formatter.result({
-  "duration": 324665900,
+  "duration": 164451500,
   "status": "passed"
 });
 });

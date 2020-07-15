@@ -175,6 +175,9 @@
                             <classpathPrefix>dependency/</classpathPrefix>
                             <mainClass>com.iceye.test.api_test_automation_quickstart.App2</mainClass>
                         </manifest>
+                        <manifestEntries>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
