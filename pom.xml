@@ -29,6 +29,12 @@
     <version>1.2.5</version>
 </dependency>
 
+    <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+    
     
     
     <dependency>
@@ -154,7 +160,8 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
+            
+            
             <plugin>
                 <!-- Build an executable JAR -->
                 <groupId>org.apache.maven.plugins</groupId>
@@ -165,12 +172,33 @@
                     <archive>
                         <manifest>
                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.iceye.test.api.acceptance.test.runner.Runner</mainClass>
+                            <classpathPrefix>dependency/</classpathPrefix>
+                            <mainClass>com.iceye.test.api_test_automation_quickstart.App2</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
+            
+            <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+      <execution>
+        <id>copy-dependencies</id>
+        <phase>package</phase>
+        <goals>
+          <goal>copy-dependencies</goal>
+        </goals>
+          <configuration>
+                        <useBaseVersion>false</useBaseVersion>
+                    </configuration>
+      </execution>
+    </executions>
+  </plugin>
+            
+            
+
+            
             
             
             
