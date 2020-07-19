@@ -32,7 +32,7 @@ public class Runner {
 	public static void setup() {
 		 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 	     ExtentProperties extentProperties = ExtentProperties.INSTANCE;
-	     extentProperties.setReportPath("target/html/ExtentReport"+ timestamp.getTime()+".html");
+	     extentProperties.setReportPath("target/extent/ExtentReport"+ timestamp.getTime()+".html");
 	}	
 	
 	
