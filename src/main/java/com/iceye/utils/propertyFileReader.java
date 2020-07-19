@@ -8,12 +8,15 @@ import java.util.Properties;
 
 public class propertyFileReader {
 	
-	private static String filename=System.getProperty("user.dir")+"\\Configuration\\config.properties";
+	private static String filename=System.getProperty("user.dir")+"/Configuration/config.properties";
 	public static Properties readPropertiesFile() throws IOException {
 	      FileInputStream fis = null;
 	      Properties prop = null;
 	      try {
+	    	  
+	    	  System.out.println(filename);
 	         fis = new FileInputStream(filename);
+	        
 	         prop = new Properties();
 	         prop.load(fis);
 	      } catch(FileNotFoundException fnfe) {

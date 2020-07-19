@@ -25,15 +25,12 @@ public class Assertions {
 	
 	@Then("^the assertion should work correctly for get close-approach data for \"([^\"]*)\" API between \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void the_assertion_should_work_correctly_for_get_close_approach_data_for_API_between_and(String arg1, String arg2, String arg3) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
 	
 		 JsonPath js= new JsonPath(stepDefination.response_);
 			
          
-		    js.get("signature.source").equals(JsonReader.readJsonfile("TC02.json"));
-			//js.get("signature.source").equals("NASA/JPL SBDB Close Approach Data API");
+		    js.get("signature.source").equals(JsonReader.readJsonfile("SignatureSourceData.json"));
 			List<List<String>> ls=js.getList("data");
-			//assertEquals(ls.get(0).get(0),arg1);
 			for(List<String> obj:ls)
 			{
 				obj.get(0).contentEquals(arg1);
@@ -62,18 +59,15 @@ public class Assertions {
 
 	@Then("^the assertion should work correctly for NEOs within \"([^\"]*)\" lunar distances on or after \"([^\"]*)\" sorted by \"([^\"]*)\"$")
 	public void the_assertion_should_work_correctly_for_NEOs_within_lunar_distances_on_or_after_sorted_by(String arg1, String arg2, String arg3) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
 	
 		
 		
 		
 		    JsonPath js= new JsonPath(stepDefination.response_);
-			js.get("signature.source").equals(JsonReader.readJsonfile("TC02.json"));
+			js.get("signature.source").equals(JsonReader.readJsonfile("SignatureSourceData"));
 			List<List<String>> ls=js.getList("data");
-			
 			int[] distance=new int[ls.size()];
-			
-			 int counter=0;
+			int counter=0;
 			for(List<String> obj:ls)
 			{
 				
