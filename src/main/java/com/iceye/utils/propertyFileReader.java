@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class propertyFileReader {
+public class PropertyFileReader {
 	
 	private static String filename=System.getProperty("user.dir")+"/Configuration/config.properties";
 	public static Properties readPropertiesFile() throws IOException {
