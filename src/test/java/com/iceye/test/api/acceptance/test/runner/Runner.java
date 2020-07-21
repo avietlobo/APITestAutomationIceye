@@ -20,6 +20,7 @@ public class Runner {
 
 	@BeforeClass
 	public static void setup() {
+		//Initializing Extent report
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		ExtentProperties extentProperties = ExtentProperties.INSTANCE;
 		extentProperties.setReportPath("target/extent/ExtentReport" + timestamp.getTime() + ".html");
@@ -27,6 +28,7 @@ public class Runner {
 
 	@AfterClass
 	public static void setup2() {
+		//This will load the below details in extent report
 		Reporter.loadXMLConfig(new File(System.getProperty("user.dir") + "/Configuration/extent-config.xml"));
 		Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
